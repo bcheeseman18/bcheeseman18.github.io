@@ -5,7 +5,7 @@ class Project extends Component {
         return (
             <div className="App">
                 <h1>
-                    <a href={this.props.details.url}><img src={this.props.details.image} alt={'map'}/></a>
+                    <a href={this.props.details.url}><img src={this.props.details.image} alt='map'/></a>
                 </h1>
                 <h3>{this.props.details.name}</h3>
                 <p>{this.props.details.technology}</p>
