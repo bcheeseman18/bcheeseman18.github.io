@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 // import logo from './logo.svg';
 import './App.css';
+import './heading.css';
+// import 'https://fonts.googleapis.com/css?family=Josefin+Sans'; 
 import Project from './project.js'; 
 import Heading from './heading.js'; 
 
@@ -29,6 +31,7 @@ class App extends Component {
     return (
       <div className="App">
         <Heading></Heading>
+        <h1>My Projects</h1>
         <Project details={projects[0]}></Project>
         <Project details={projects[1]}></Project>
         <Project details={projects[2]}></Project>
