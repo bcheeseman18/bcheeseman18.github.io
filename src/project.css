@@ -1,0 +1,14 @@
+.projImage {
+    width: 250px; 
+    height: 150px;
+    margin-left: 24px; 
+    border: 4px solid #a0a7af;  
+    opacity: .3; 
+    filter: alpha(opacity=50);
+}
+
+.projImage:hover {
+    opacity: 1.0; 
+    filter: alpha(opacity=100);
+}
+

@@ -2,25 +2,25 @@ import React, { Component } from 'react';
 // import logo from './logo.svg';
 import './App.css';
 import './heading.css';
-// import 'https://fonts.googleapis.com/css?family=Josefin+Sans'; 
+import './project.css'; 
 import Project from './project.js'; 
 import Heading from './heading.js'; 
 
 let projects = [
   { url: 'https://github.com/bcheeseman18/teeup', 
-    image: '/src/map.png', 
+    image: './teeuppic.png', 
     name: 'teeUp', 
     technology: 'AngularJS, Sass, HTML5', 
     description: 'A golf course bid service application', date: 'June 2017' },
-  { url: 'https://github.com/bcheeseman18/repository-23', 
-    image: '/Users/bencheeseman/Documents/Personal Projects/porfolio/bcheeseman18.github.io/src/map.png', 
-    name: 'GitHub Activity Tracker', 
+  { url: 'https://github.com/bcheeseman18/repository-22', 
+    image: './chatapp.png', 
+    name: 'Chat App', 
     technology: 'Angular JS, Sass, HTML5', 
-    description: 'Tracks activity of each member of The Iron Yard Cohort',
+    description: 'Lets users communicate with eachother by sending and recieving messages between an API',
     date: 'May 2017'},
   { url: 'https://github.com/bcheeseman18/devApp', 
     image: './map.png', 
-    name: 'Map Dev Project', 
+    name: 'Development Map', 
     technology: 'JavaScript, CSS3, HTML5',
     description: 'Focus on Charlotte development projects in each neighborhood',
     date: 'April 2017'}
@@ -31,7 +31,9 @@ class App extends Component {
     return (
       <div className="App">
         <Heading></Heading>
-        <h1>My Projects</h1>
+        <div className="projectTitle">
+          <h1 className="myPro"><img className="atom" src="./atomIcon.png"/>My Projects</h1>
+        </div>
         <Project details={projects[0]}></Project>
         <Project details={projects[1]}></Project>
         <Project details={projects[2]}></Project>

@@ -1,6 +1,36 @@
-.App {
-  text-align: center;
+/*@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');*/
+/*@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300'); */
+/*@import url('https://fonts.googleapis.com/css?family=Rajdhani'); */
+@import url('https://fonts.googleapis.com/css?family=Syncopate'); 
+
+body {
+  background-color: #31353a; 
+  color: white; 
+  /*font-family: 'Josefin Sans', sans-serif;*/
+  /*font-family: 'Open Sans Condensed', sans-serif;*/
+  /*font-family: 'Rajdhani', sans-serif;*/
+  font-family: 'Syncopate', sans-serif;
 }
+
+.projectTitle {
+  border-bottom: 1px solid #e8e8e8; 
+  margin-top: 5px; 
+  margin-bottom: 15px; 
+}
+
+.myPro {
+  font-size: 1.5em; 
+  text-align: right;
+  margin-bottom: 15px;  
+}
+
+.atom {
+  margin-right: 10px; 
+}
+
+/*.App {
+  text-align: center;
+}*/
 
 /*.App-logo {
   animation: App-logo-spin infinite 20s linear;
