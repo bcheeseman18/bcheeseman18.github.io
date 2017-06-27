@@ -8,12 +8,12 @@ import Heading from './heading.js';
 
 let projects = [
   { url: 'https://github.com/bcheeseman18/teeup', 
-    image: '/src/map.png', 
+    image: './map.png', 
     name: 'teeUp', 
     technology: 'AngularJS, Sass, HTML5', 
     description: 'A golf course bid service application', date: 'June 2017' },
   { url: 'https://github.com/bcheeseman18/repository-23', 
-    image: '/Users/bencheeseman/Documents/Personal Projects/porfolio/bcheeseman18.github.io/src/map.png', 
+    image: './map.png', 
     name: 'GitHub Activity Tracker', 
     technology: 'Angular JS, Sass, HTML5', 
     description: 'Tracks activity of each member of The Iron Yard Cohort',
