@@ -12,3 +12,11 @@
     filter: alpha(opacity=100);
 }
 
+h2 {
+    font-size: 1.3em; 
+}
+
+p {
+    font-size: .7em; 
+}
+
