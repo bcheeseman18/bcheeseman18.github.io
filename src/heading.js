@@ -16,10 +16,10 @@ class Heading extends Component {
                         <p id="phrase">making mobile-first, responsive websites!</p>
                     <div className="navigation">
                             <a href="https://www.linkedin.com/in/benjamin-cheeseman-b767972a/">
-                                <button id="linkedin"><img src="./linkedinBtn.png" alt="linkedin"/></button>
+                                <img id="linkedin" src="./linkedinBtn.png" alt="linkedin"/>
                             </a>
                             <a href="https://github.com/bcheeseman18">
-                                <button id="github"><img src="http://www.iconninja.com/files/688/484/851/hub-git-github-icon.svg" alt="github"/></button>
+                                <img id="github" src="http://www.iconninja.com/files/688/484/851/hub-git-github-icon.svg" alt="github"/>
                             </a>
                             {/*<a href="https://benjamincheeseman18@gmail.com">
                                 <button id="email"><img src="./gmailIcon.png" alt="email"/></button>

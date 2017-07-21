@@ -10,7 +10,6 @@ import Skills from './skills.js'
 
 let projects = [
   { url: 'https://github.com/bcheeseman18/teeup', 
-
     image: './teeuppic.png', 
     name: 'teeUp', 
     technology: 'AngularJS, Sass, HTML5', 

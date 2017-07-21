@@ -10,8 +10,8 @@ class Project extends Component {
                             <a href={this.props.details.url}><img className="projImage" src={this.props.details.image} alt='map'/></a>
                         </div>
                             <div className="projInfo">
-                                <p>{this.props.details.description}</p>
-                                <p>{this.props.details.technology}</p>
+                                <p className="description">{this.props.details.description}</p>
+                                <p className="tech">Technologies: {this.props.details.technology}</p>
                             </div>
                 </div>
             </div>
